@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/postssstyle.css">
+</head>
+<body>
+    <% allposts.forEach(function(val){  %>
+    <div id="post">
+        <div id="cricle">
+             <img src="/images/uploads/<%= val.users.image %> " alt="">
+        </div>
+      <h2><%= val.postdets %></h2> 
+      <h4><%= val.users.username %></h4>  
+    
+
+   
+</div>
+   
+<%  })  %>
+
+
+<style>
+  
+</style>
+</body>
+</html>

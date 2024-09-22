@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#page{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* background-color: rgb(152, 152, 227); */
+}
+#overlay h1{
+    color: #fff;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    left: 30%;
+    top: 10%;
+    text-transform: uppercase;
+    font-weight: 100;
+    z-index: 99999999;
+    opacity: 1;
+    scale: 1;
+}
+#overlay button{
+    padding: 8px 20px;
+    font-size: 25px;
+    border-radius: 50px;
+    border: 3px solid #fff;
+    background: linear-gradient(#FA6166, #EEA47F,  #FAEAEB);
+}
+#overlay button:hover{
+    background: linear-gradient(#FCF6F6, #FCEDDA);
+}
+#start{
+    position: absolute;
+    top: 85%;
+    left: 34%;
+    z-index: 99999;
+    opacity: 1;
+}
+#start button{
+   padding: 8px 30px;
+}
+#login{
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    z-index: 99999;
+    opacity: 1;
+}
+#login button{
+    padding: 8px 50px;
+}
+#overlay1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -100%;
+    overflow: hidden;
+    opacity: 1;
+    z-index: 99;
+}
+#overlay1 h2{
+    position: absolute;
+    color: #FA6166;
+    z-index: 99999;
+    left: 42%;
+    top: 77%;
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+#intro{
+    position: absolute;
+    height: 150%;
+    width: 150%;
+    left: -25%;
+    top: -25%;
+    z-index: 999;
+}
+#smvideo{
+    position: absolute;
+    height: 40vh;
+    width: 40vh;
+    clip-path: circle(50% at 50% 50%);
+    top: 34%;
+    left: 40%;
+   overflow: hidden;
+   z-index: 99999999;
+}
+#midle{
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    position: absolute;
+}

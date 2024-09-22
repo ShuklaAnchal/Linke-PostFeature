@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+#main img{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+}
+#overlay{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(115, 115, 240, 0.338);
+}
+.continer{
+  position: absolute;
+   top: 20%;
+   left: 35%;
+  height: 55%;
+  width: 20%;
+  color: #ADD9E6;
+}

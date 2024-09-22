@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/stylesheets/stylelogin.css">
+</head>
+<body>
+  <div id="main">
+    <div id="videos">
+      <video autoplay muted loop src="https://svs.gsfc.nasa.gov/vis/a010000/a013300/a013326/BH_Accretion_Disk_Sim_360_1080.mp4"></video>
+    </div>
+        <div class="continer">
+          <h1>Login Page</h1>
+          <form action="/login" method="post"> 
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>  <br>
+          <input type="email" name="email" placeholder="Type here" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label> <br>
+          <input type="password" name="password" placeholder="Type here" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

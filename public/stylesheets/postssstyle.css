@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#post{
+    max-height: 13%;
+   max-width: fit-content;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    border: 2px solid black;
+}
+#cricle{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    margin-top: 7px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+#cricle img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#post h2{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#post h4{
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 5px;
+}
